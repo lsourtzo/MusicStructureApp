@@ -56,6 +56,6 @@
     <string name="time5">40 min</string>
     <string name="time6">60 min</string>
     <string name="time7">120 min</string>
-    <string name="TimerMessage">In this screen user will be able to select if they want to close auto play after specific time \n\nPress on OK to disappear this box and enjoy the activity.  </string>
+    <string name="TimerMessage">In this screen user will be able to select if they want to close auto play after specific time.\nTo keep screen on we can use PowerManager.WakeLock class, after we add this line in our Manifest file android.permission.WAKE_LOCK. \n\nPress on OK to disappear this box and enjoy the activity.  </string>
 
 </resources>
