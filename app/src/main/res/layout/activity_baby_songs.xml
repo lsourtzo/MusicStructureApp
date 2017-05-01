@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lsourtzo.app.musicapp.WhiteNoises">
+
+    <ScrollView style="@style/GenericScroll">
+
+        <LinearLayout style="@style/GenericLinear">
+
+            <!--                 All Night All Day                     -->
+
+            <LinearLayout style="@style/lullabiesListLinear1a">
+
+                <TextView
+                    style="@style/lullabiesListText"
+                    android:text="@string/Lula1" />
+
+                <LinearLayout style="@style/lullabiesListLinear2">
+
+                    <CheckBox
+                        android:id="@+id/LulaChBox1"
+                        style="@style/ListCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--                 All The Pretty Little Horses                    -->
+
+            <LinearLayout style="@style/lullabiesListLinear1b">
+
+                <TextView
+                    style="@style/lullabiesListText"
+                    android:text="@string/Lula2" />
+
+                <LinearLayout style="@style/lullabiesListLinear2">
+
+                    <CheckBox
+                        android:id="@+id/LulaChBox2"
+                        style="@style/ListCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--                 All Through the Night                   -->
+
+            <LinearLayout style="@style/lullabiesListLinear1a">
+
+                <TextView
+                    style="@style/lullabiesListText"
+                    android:text="@string/Lula3" />
+
+                <LinearLayout style="@style/lullabiesListLinear2">
+
+                    <CheckBox
+                        android:id="@+id/LulaChBox3"
+                        style="@style/ListCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--                 Baa Baa Black Sheep                   -->
+
+            <LinearLayout style="@style/lullabiesListLinear1b">
+
+                <TextView
+                    style="@style/lullabiesListText"
+                    android:text="@string/Lula4" />
+
+                <LinearLayout style="@style/lullabiesListLinear2">
+
+                    <CheckBox
+                        android:id="@+id/LulaChBox4"
+                        style="@style/ListCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--               Ballyeamon Cradle Song                     -->
+
+            <LinearLayout style="@style/lullabiesListLinear1a">
+
+                <TextView
+                    style="@style/lullabiesListText"
+                    android:text="@string/Lula5" />
+
+                <LinearLayout style="@style/lullabiesListLinear2">
+
+                    <CheckBox
+                        android:id="@+id/LulaChBox5"
+                        style="@style/ListCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--                 Brahms Lullaby                   -->
+
+            <LinearLayout style="@style/lullabiesListLinear1b">
+
+                <TextView
+                    style="@style/lullabiesListText"
+                    android:text="@string/Lula6" />
+
+                <LinearLayout style="@style/lullabiesListLinear2">
+
+                    <CheckBox
+                        android:id="@+id/LulaChBox6"
+                        style="@style/ListCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--             Bright Morning Stars Are Rising              -->
+
+            <LinearLayout style="@style/lullabiesListLinear1a">
+
+                <TextView
+                    style="@style/lullabiesListText"
+                    android:text="@string/Lula7" />
+
+                <LinearLayout style="@style/lullabiesListLinear2">
+
+                    <CheckBox
+                        android:id="@+id/LulaChBox7"
+                        style="@style/ListCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--                Down In The Valley                  -->
+
+            <LinearLayout style="@style/lullabiesListLinear1b">
+
+                <TextView
+                    style="@style/lullabiesListText"
+                    android:text="@string/Lula8" />
+
+                <LinearLayout style="@style/lullabiesListLinear2">
+
+                    <CheckBox
+                        android:id="@+id/LulaChBox8"
+                        style="@style/ListCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--                Frere Jacques                   -->
+
+            <LinearLayout style="@style/lullabiesListLinear1a">
+
+                <TextView
+                    style="@style/lullabiesListText"
+                    android:text="@string/Lula9" />
+
+                <LinearLayout style="@style/lullabiesListLinear2">
+
+                    <CheckBox
+                        android:id="@+id/LulaChBox9"
+                        style="@style/ListCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--              Hush Little Baby                 -->
+
+            <LinearLayout style="@style/lullabiesListLinear1b">
+
+                <TextView
+                    style="@style/lullabiesListText"
+                    android:text="@string/Lula10" />
+
+                <LinearLayout style="@style/lullabiesListLinear2">
+
+                    <CheckBox
+                        android:id="@+id/LulaChBox10"
+                        style="@style/ListCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--                Kumbaya                   -->
+
+            <LinearLayout style="@style/lullabiesListLinear1a">
+
+                <TextView
+                    style="@style/lullabiesListText"
+                    android:text="@string/Lula11" />
+
+                <LinearLayout style="@style/lullabiesListLinear2">
+
+                    <CheckBox
+                        android:id="@+id/LulaChBox11"
+                        style="@style/ListCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--                The Moon Lullaby                  -->
+
+            <LinearLayout style="@style/lullabiesListLinear1b">
+
+                <TextView
+                    style="@style/lullabiesListText"
+                    android:text="@string/Lula12" />
+
+                <LinearLayout style="@style/lullabiesListLinear2">
+
+                    <CheckBox
+                        android:id="@+id/LulaChBox12"
+                        style="@style/ListCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--           Return To Main Activity Button               -->
+
+            <Button
+                android:id="@+id/returnToMainActivity"
+                style="@style/ButtonStyle" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!--                    Startup Message                       -->
+
+    <ScrollView
+        android:id="@+id/disappearBox"
+        style="@style/MessageScroll">
+
+        <LinearLayout style="@style/MessageLinear">
+
+            <TextView
+                style="@style/MessageText"
+                android:text="@string/LulaMessage" />
+
+            <Button
+                android:id="@+id/disappearButton"
+                style="@style/ButtonStyle" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bgcWhightNoise">#ffb5ce</color>
+    <color name="bgcBabySongs">#ffffff</color>
+    <color name="bgcSettings">#f6ffa3</color>
+    <color name="bgcTimer">#9cf7b4</color>
+
+    <color name="WNCL1">#9cf7b4</color>
+    <color name="WNCL2">#9cbcf7</color>
+
+    <color name="DescribeTextBoxColor">#df7e1586</color>
+    <color name="DescribeTextColor">#ffffff</color>
+
+
+</resources>

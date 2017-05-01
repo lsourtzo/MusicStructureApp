@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lsourtzo.app.musicapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/whiteNoises"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:alpha="0.40"
+                android:background="@color/bgcWhightNoise"
+                android:scaleType="fitCenter"
+                android:src="@drawable/whitenoisesmain" />
+
+            <ImageView
+                android:id="@+id/babyMusic"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:alpha="0.40"
+                android:background="@color/bgcBabySongs"
+                android:scaleType="fitCenter"
+                android:src="@drawable/babytoy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/settings"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:alpha="0.40"
+                android:background="@color/bgcSettings"
+                android:scaleType="fitCenter"
+                android:src="@drawable/settings" />
+
+            <ImageView
+                android:id="@+id/timer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:alpha="0.40"
+                android:background="@color/bgcTimer"
+                android:scaleType="fitCenter"
+                android:src="@drawable/timer" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/playStopButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/PlayPading"
+        android:src="@drawable/play" />
+
+    <!--                    Startup Message                       -->
+
+    <ScrollView
+        android:id="@+id/disappearBox"
+        style="@style/MessageScroll">
+
+        <LinearLayout style="@style/MessageLinear">
+
+            <TextView
+                style="@style/MessageText"
+                android:text="@string/MainScreeneMessage" />
+
+            <Button
+                android:id="@+id/disappearButton"
+                style="@style/ButtonStyle" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

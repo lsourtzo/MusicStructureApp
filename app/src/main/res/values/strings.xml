@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- MainActivity and Shared strings -->
+    <string name="app_name">Music App</string>
+    <string name="whiteNoises">White Noises</string>
+    <string name="babySounds">Lullabies</string>
+    <string name="settingsActivity">Screen Settings</string>
+    <string name="timerActivity">Countdown Timer</string>
+    <string name="ok">OK</string>
+    <string name="MainScreeneMessage">Welcome to Music Structure App. \n\nIn this screen user will be able to select one of the following selection: \nhear WhiteNoises\nor Lullabies \nchange settings \nor set timer  \n\nIn the center there is a big play button which start or stop the player. This can be done using MediaPlayer. \n\nPress OK to disappear this box and enjoy the activity.  \n\nRemember this app created just to present the structure of activity\’s and it\'s not playable. Although I have tried to create the most of the Interface making some features available.</string>
+
+    <!-- White Noises -->
+    <string name="fire">Fire</string>
+    <string name="volume">Volume</string>
+    <string name="waves">Waves</string>
+    <string name="rain">Rain</string>
+    <string name="forest">Forest</string>
+    <string name="ToastNoNoneWN">You must select at least on sound</string>
+    <string name="WhiteNoiseMessage">In this screen user will be able to select one or more sounds which will be played simultaneously when play button pressed. \n\nAlso user will be able to select the exact volume which each sound will be played.   \n\nPress on OK to disappear this box and enjoy the activity.  \n\nRemember this app created just to present the structure of activitys and it\'s not playable. Although try to press the OK button with out choose any sound.</string>
+
+
+    <!-- Lullabies -->
+    <string name="Lula1">All Night All Day</string>
+    <string name="Lula2">All The Pretty Little Horses</string>
+    <string name="Lula3">All Through the Night</string>
+    <string name="Lula4">Baa Baa Black Sheep</string>
+    <string name="Lula5">Ballyeamon Cradle Song</string>
+    <string name="Lula6">Brahms Lullaby</string>
+    <string name="Lula7">Bright Morning Stars Are Rising</string>
+    <string name="Lula8">Down In The Valley</string>
+    <string name="Lula9">Frere Jacques</string>
+    <string name="Lula10">Hush Little Baby</string>
+    <string name="Lula11">Kumbaya</string>
+    <string name="Lula12">The Moon Lullaby</string>
+    <string name="ToastNoNone">You must select at least on song</string>
+    <string name="LulaMessage">In this screen user will be able to select one or more songs which will be played contineously when play button pressed. \n\nPress on OK to disappear this box and enjoy the activity.  \n\nTry to press the OK button with out choose any song.</string>
+
+    <!-- Setting -->
+    <string name="Stays">Screen during play stays :</string>
+    <string name="StaysOn">On</string>
+    <string name="StaysOff">Off</string>
+    <string name="Saturation">Saturation</string>
+    <string name="Animation">Please select animation :</string>
+    <string name="Anim1">Little sheep\'s</string>
+    <string name="Anim2">Moon</string>
+    <string name="Anim3">Stars</string>
+    <string name="Anim4">Sleeping Frog </string>
+    <string name="SetingsMessage">In this screen user will be able to select if screen close during playing or not. \n\nAlso if user choose screen stays on will be able to select from 4 diferent animations. This can be done using the Daydream or maybe call a static function loadAnimation() of the class AnimationUtils. \n\nPress on OK to disappear this box and enjoy the activity.  \n\nDon\'t forget to change between On and Off option.</string>
+
+    <!-- Timer -->
+    <string name="StopAfter">Automatic stop playing after :</string>
+    <string name="time1">Never</string>
+    <string name="time2">5 min</string>
+    <string name="time3">10 min</string>
+    <string name="time4">20 min</string>
+    <string name="time5">40 min</string>
+    <string name="time6">60 min</string>
+    <string name="time7">120 min</string>
+    <string name="TimerMessage">In this screen user will be able to select if they want to close auto play after specific time \n\nPress on OK to disappear this box and enjoy the activity.  </string>
+
+</resources>

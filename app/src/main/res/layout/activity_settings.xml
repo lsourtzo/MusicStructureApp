@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lsourtzo.app.musicapp.WhiteNoises">
+
+    <ScrollView style="@style/GenericScroll">
+
+
+        <LinearLayout style="@style/GenericLinear">
+
+            <!--                    Title                       -->
+            <LinearLayout style="@style/settingsListLinear1b">
+
+                <LinearLayout style="@style/settingsListLinear2">
+
+                    <TextView
+                        style="@style/settingsText1"
+                        android:text="@string/Stays" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--                    Screen ON                       -->
+            <LinearLayout style="@style/settingsListLinear1a">
+
+                <LinearLayout style="@style/settingsListLinear2">
+
+                    <TextView
+                        style="@style/settingsText1"
+                        android:text="@string/StaysOff" />
+
+                    <LinearLayout style="@style/settingsListLinear3">
+
+                        <RadioButton
+                            android:id="@+id/offRadioButton"
+                            style="@style/ListCheck"
+                            android:checked="true" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--                    Screen Off                       -->
+            <LinearLayout style="@style/settingsListLinear1b">
+
+                <LinearLayout style="@style/settingsListLinear2">
+
+                    <TextView
+                        style="@style/settingsText1"
+                        android:text="@string/StaysOn" />
+
+                    <LinearLayout style="@style/settingsListLinear3">
+
+                        <RadioButton
+                            android:id="@+id/onRadioButton"
+                            style="@style/ListCheck" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/onSettings"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="invisible">
+
+                    <LinearLayout style="@style/settingsListLinear4">
+
+                        <TextView
+                            style="@style/settingsText2"
+                            android:text="@string/Saturation" />
+
+                        <SeekBar
+                            android:id="@+id/fireSeekBar"
+                            style="@style/whiteNoisesSeek" />
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/settingsText2"
+                        android:text="@string/Animation" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/Anim1"
+                            style="@style/radioGroup"
+                            android:checked="true"
+                            android:text="@string/Anim1" />
+
+                        <RadioButton
+                            android:id="@+id/Anim2"
+                            style="@style/radioGroup"
+                            android:text="@string/Anim2" />
+
+                        <RadioButton
+                            android:id="@+id/Anim3"
+                            style="@style/radioGroup"
+                            android:text="@string/Anim3" />
+
+                        <RadioButton
+                            android:id="@+id/Anim4"
+                            style="@style/radioGroup"
+                            android:text="@string/Anim4" />
+
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!--           Return To Main Activity Button               -->
+
+            <Button
+                android:id="@+id/returnToMainActivity"
+                style="@style/ButtonStyle" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!--                    Startup Message                       -->
+
+    <ScrollView
+        android:id="@+id/disappearBox"
+        style="@style/MessageScroll">
+
+        <LinearLayout style="@style/MessageLinear">
+
+            <TextView
+                style="@style/MessageText"
+                android:text="@string/SetingsMessage" />
+
+            <Button
+                android:id="@+id/disappearButton"
+                style="@style/ButtonStyle" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

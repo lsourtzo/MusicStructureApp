@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lsourtzo.app.musicapp.WhiteNoises">
+
+    <ScrollView style="@style/GenericScroll">
+
+        <LinearLayout style="@style/GenericLinear">
+
+            <!--                    Fire Items                        -->
+            <LinearLayout style="@style/whiteNoisesListLinear1a">
+
+                <LinearLayout style="@style/whiteNoisesListLinear2">
+
+                    <ImageView
+                        style="@style/whiteNoisesImages"
+                        android:src="@drawable/fire" />
+
+                    <TextView
+                        style="@style/whiteNoisesText1"
+                        android:text="@string/fire" />
+
+                    <LinearLayout style="@style/whiteNoisesListLinear3">
+
+                        <CheckBox
+                            android:id="@+id/fireCheckBox"
+                            style="@style/ListCheck" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout style="@style/whiteNoisesListLinear4">
+
+                    <TextView
+                        style="@style/whiteNoisesText2"
+                        android:text="@string/volume" />
+
+                    <SeekBar
+                        android:id="@+id/fireSeekBar"
+                        style="@style/whiteNoisesSeek" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--                    Forest Items                        -->
+            <LinearLayout style="@style/whiteNoisesListLinear1b">
+
+                <LinearLayout style="@style/whiteNoisesListLinear2">
+
+                    <ImageView
+                        style="@style/whiteNoisesImages"
+                        android:src="@drawable/forest" />
+
+                    <TextView
+                        style="@style/whiteNoisesText1"
+                        android:text="@string/forest" />
+
+                    <LinearLayout style="@style/whiteNoisesListLinear3">
+
+                        <CheckBox
+                            android:id="@+id/ForestCheckBox"
+                            style="@style/ListCheck" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout style="@style/whiteNoisesListLinear3">
+
+                    <TextView
+                        style="@style/whiteNoisesText2"
+                        android:text="@string/volume" />
+
+                    <SeekBar
+                        android:id="@+id/forestSeekBar"
+                        style="@style/whiteNoisesSeek" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--                    Rain Items                        -->
+            <LinearLayout style="@style/whiteNoisesListLinear1a">
+
+                <LinearLayout style="@style/whiteNoisesListLinear2">
+
+                    <ImageView
+                        style="@style/whiteNoisesImages"
+                        android:src="@drawable/rain" />
+
+                    <TextView
+                        style="@style/whiteNoisesText1"
+                        android:text="@string/rain" />
+
+                    <LinearLayout style="@style/whiteNoisesListLinear3">
+
+                        <CheckBox
+                            android:id="@+id/rainCheckBox"
+                            style="@style/ListCheck" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout style="@style/whiteNoisesListLinear4">
+
+                    <TextView
+                        style="@style/whiteNoisesText2"
+                        android:text="@string/volume" />
+
+                    <SeekBar
+                        android:id="@+id/rainSeekBar"
+                        style="@style/whiteNoisesSeek" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--                    Waves Items                        -->
+            <LinearLayout style="@style/whiteNoisesListLinear1b">
+
+                <LinearLayout style="@style/whiteNoisesListLinear2">
+
+                    <ImageView
+                        style="@style/whiteNoisesImages"
+                        android:src="@drawable/wave" />
+
+                    <TextView
+                        style="@style/whiteNoisesText1"
+                        android:text="@string/waves" />
+
+                    <LinearLayout style="@style/whiteNoisesListLinear3">
+
+                        <CheckBox
+                            android:id="@+id/wavesCheckBox"
+                            style="@style/ListCheck" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout style="@style/whiteNoisesListLinear4">
+
+                    <TextView
+                        style="@style/whiteNoisesText2"
+                        android:text="@string/volume" />
+
+                    <SeekBar
+                        android:id="@+id/wavesSeekBar"
+                        style="@style/whiteNoisesSeek" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--           Return To Main Activity Button               -->
+
+            <Button
+                android:id="@+id/returnToMainActivity"
+                style="@style/ButtonStyle" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!--                    Startup Message                       -->
+
+    <ScrollView
+        android:id="@+id/disappearBox"
+        style="@style/MessageScroll">
+
+        <LinearLayout style="@style/MessageLinear">
+
+            <TextView
+                style="@style/MessageText"
+                android:text="@string/WhiteNoiseMessage" />
+
+            <Button
+                android:id="@+id/disappearButton"
+                style="@style/ButtonStyle" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

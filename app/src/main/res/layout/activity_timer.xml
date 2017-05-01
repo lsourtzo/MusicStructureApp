@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lsourtzo.app.musicapp.WhiteNoises">
+
+    <ScrollView style="@style/GenericScroll">
+
+        <LinearLayout style="@style/GenericLinear">
+
+            <!--                    Title                       -->
+            <LinearLayout style="@style/settingsListLinear1a">
+
+                <TextView
+                    style="@style/settingsText1"
+                    android:text="@string/StopAfter" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/settingsListLinear1b">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/TimeS1"
+                        style="@style/radioGroup"
+                        android:checked="true"
+                        android:text="@string/time1" />
+
+                    <RadioButton
+                        android:id="@+id/TimeS2"
+                        style="@style/radioGroup"
+                        android:text="@string/time2" />
+
+                    <RadioButton
+                        android:id="@+id/TimeS3"
+                        style="@style/radioGroup"
+                        android:text="@string/time3" />
+
+                    <RadioButton
+                        android:id="@+id/TimeS4"
+                        style="@style/radioGroup"
+                        android:text="@string/time4" />
+
+                    <RadioButton
+                        android:id="@+id/TimeS5"
+                        style="@style/radioGroup"
+                        android:text="@string/time5" />
+
+                    <RadioButton
+                        android:id="@+id/TimeS6"
+                        style="@style/radioGroup"
+                        android:text="@string/time6" />
+
+                    <RadioButton
+                        android:id="@+id/TimeS7"
+                        style="@style/radioGroup"
+                        android:text="@string/time7" />
+
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <!--           Return To Main Activity Button               -->
+
+            <Button
+                android:id="@+id/returnToMainActivity"
+                style="@style/ButtonStyle" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!--                    Startup Message                       -->
+
+    <ScrollView
+        android:id="@+id/disappearBox"
+        style="@style/MessageScroll">
+
+        <LinearLayout style="@style/MessageLinear">
+
+            <TextView
+                style="@style/MessageText"
+                android:text="@string/TimerMessage" />
+
+            <Button
+                android:id="@+id/disappearButton"
+                style="@style/ButtonStyle" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

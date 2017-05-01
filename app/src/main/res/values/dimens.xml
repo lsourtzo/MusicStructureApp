@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MainActivity and Shared strings -->
+    <dimen name="PlayPading">100dp</dimen>
+    <dimen name="ListMargin">10dp</dimen>
+    <dimen name="DescribeTextBoxMargin">40dp</dimen>
+    <dimen name="DescribeTextBoxPading">10dp</dimen>
+    <dimen name="CheckBoxSize">30sp</dimen>
+    <dimen name="DescribeTextSize">25sp</dimen>
+
+    <!-- White Noises -->
+    <dimen name="ListTextSize">50sp</dimen>
+    <dimen name="VolumeTextSize">20sp</dimen>
+
+    <!-- Lullabies -->
+    <dimen name="ListTextSizeLula">30sp</dimen>
+
+    <!-- Settings -->
+    <dimen name="SettingsTextSize">30sp</dimen>
+
+</resources>
